@@ -1,11 +1,11 @@
-# Project template
+# Energy Informatics II
 
-This template should be used for every Python project in the lab. It uses:
+This template should be used for your project. It uses:
 
 - [`uv`](https://docs.astral.sh/uv/) for dependency management.
 - [`ruff`](https://docs.astral.sh/ruff/) for code formatting.
 - [`pyright`](https://github.com/microsoft/pyright) for type checking.
-- [pre-commit](https://pre-commit.com/) hooks for automated validation.
+- [`pre-commit`](https://pre-commit.com/) hooks for automated validation.
 
 ## Dependency management
 
@@ -51,11 +51,13 @@ the commit command:
 git commit -m "My message"
 ```
 
-### Code formatting
+### Code formatting and structure
 
 Among the pre-commit hooks, you will find one that runs
 [`ruff`](https://docs.astral.sh/ruff/) on every Python file. It is also warmly
 recommended that you set up `ruff` in your IDE (e.g., Visual Studio Code, PyCharm).
+
+Refer to [this document](src/README) regarding code structure.
 
 ### Typing
 
